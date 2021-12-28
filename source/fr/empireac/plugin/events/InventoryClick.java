@@ -6,6 +6,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
+/*
+ *
+ * EAC Plugin
+ * By Holia
+ *
+ */
+
 public class InventoryClick implements Listener{
 	
 	@EventHandler
