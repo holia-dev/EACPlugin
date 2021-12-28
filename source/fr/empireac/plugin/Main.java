@@ -14,6 +14,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 import fr.empireac.plugin.events.InventoryClick;
 import fr.empireac.plugin.events.PlayersJoin;
 
+/*
+ *
+ * EAC Plugin
+ * By Holia
+ *
+ */
+
 public class Main extends JavaPlugin {
 	
 	@Override
@@ -55,7 +62,7 @@ public class Main extends JavaPlugin {
 					if (all.isOp()) {
 						all.sendMessage(ChatColor.DARK_GRAY + "[" + ChatColor.BLUE + "REPORT" + ChatColor.DARK_GRAY + "] " + ChatColor.YELLOW + sender.getName() + ChatColor.AQUA + " a report " + ChatColor.YELLOW + args[0] + ChatColor.AQUA + " avec la raison suivante : " + ChatColor.YELLOW + raison);
 					}
-					sender.sendMessage(ChatColor.GREEN + "Votre report a été envoyé au membres du staff. Merci de faire EmpireAC un serveur meilleur.");
+					sender.sendMessage(ChatColor.GREEN + "Votre report a Ã©tÃ© envoyÃ© au membres du staff. Merci de faire EmpireAC un serveur meilleur.");
 				}
 			}
 			
@@ -148,7 +155,7 @@ public class Main extends JavaPlugin {
 					Bukkit.broadcastMessage(ChatColor.WHITE + "<" + args[0] + ">" + " " + chatJoueur);
 				}
 			} else {
-				sender.sendMessage(ChatColor.RED + "Vous n'avez pas accès a cette commande.");
+				sender.sendMessage(ChatColor.RED + "Vous n'avez pas accÃ¨s a cette commande.");
 			}
 		}
 		
