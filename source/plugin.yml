@@ -1,0 +1,19 @@
+name: EACPlugin
+author: Holia
+version: beta0.1
+main: fr.empireac.plugin.Main
+commands:
+ report:
+  description: Report des Cheateurs, Exploiter, Hackeurs.
+ discord:
+  description: Affiche le lien du discord.
+ help:
+  description: Help page
+ menu:
+  description: Menu
+ myuuid:
+  description: MyUUID
+ fakechat:
+  description: FakeChat
+ kill:
+  description: Kill
