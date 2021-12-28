@@ -12,7 +12,7 @@ Créer un projet Eclipse (Java Project) et importer le fichier JAR de Spigot (di
 #### Etape 2 : Mettre les different fichier
 
 Telecharger la source de EACPlugin-Latest et mettez les fichier de EACPlugin en sorte pour avoir la hierarchie si dessous :
-``
+```markdown
 Eclipse-Workspace/
   MonPlugin/
     .project
@@ -29,7 +29,7 @@ Eclipse-Workspace/
               InventoryClick.java
               PlayersJoin.java
               
-``
+```
 
 #### Etape 3 : Eclipse 
 
