@@ -12,6 +12,13 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 
+/*
+ *
+ * EAC Plugin
+ * By Holia
+ *
+ */
+
 public class AncienMain extends JavaPlugin implements Listener {
 
 	@Override
